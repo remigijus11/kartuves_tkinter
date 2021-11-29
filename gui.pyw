@@ -49,7 +49,7 @@ def get_text():
                 secret_masked += letter
             else:
                 secret_masked += "*"
-    print(secret_masked)
+  #  print(secret_masked)
     my_label.config(text=temp + spejimas)
     my_text.delete(1.0, END)
     my_zodis.config(text='Spėjamas žodis: ' + secret_masked)
